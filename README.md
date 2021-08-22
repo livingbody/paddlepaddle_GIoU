@@ -1,13 +1,17 @@
-# GIoU模块转写及对齐
-## GIoU相关资料
+# 一、GIoU模块转写及对齐
+github地址：[https://github.com/livingbody/paddlepaddle_GIoU](https://github.com/livingbody/paddlepaddle_GIoU)
+
+aistudio地址: [https://aistudio.baidu.com/aistudio/projectdetail/2303828](https://aistudio.baidu.com/aistudio/projectdetail/2303828)
+
+## 二、GIoU相关资料
 原论文： https://giou.stanford.edu/GIoU.pdf
 
 相关知识介绍： https://zhuanlan.zhihu.com/p/94799295
-# 作业要求
+# 三、作业要求
 使用PaddlePaddle实现GIoU
 
 使用/home/aistudio/work/test_giou.py脚本，对齐PaddlePaddle实现与Pytorch实现，即运行test_giou.py后，出现success
-# 提示
+# 四、提示
 Pytorch参考实现位于/home/aistudio/work/giou_torch.py，另外AIStudio上无法直接运行Pytorch脚本，对齐时需要使用自己的环境。
 
 测试case位于/home/aistudio/work/test_giou.py
